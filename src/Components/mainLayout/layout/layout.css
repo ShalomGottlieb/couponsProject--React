@@ -1,0 +1,25 @@
+.layout {
+	height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid; 
+    grid-template-rows: 18% 77% 5%; /*repeat(3, 1fr);*/
+    position: absolute;
+    background-image: url("/src/images/backgroundSky.jpeg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    
+}
+
+.layout>* {
+    align-items: center;
+    position : center; 
+    text-align: center;	
+}
+
+.errors{
+    color: red;
+}
+
+
+

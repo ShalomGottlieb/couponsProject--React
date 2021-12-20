@@ -1,0 +1,13 @@
+.main {
+    align-items: center;
+    height: 500px;
+    position : center; 
+    text-align: center;	
+     overflow:scroll; 
+}
+.about{
+    height: 40%; 
+    overflow:hidden; 
+   
+}
+
